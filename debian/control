@@ -1,0 +1,23 @@
+Source: gplots
+Section: gnu-r
+Priority: optional
+Maintainer: cran2deb autobuild <cran2deb@gmail.com>
+Build-Depends: r-cran-gtools, r-cran-gdata, r-base-dev, r-cran-catools,
+ xvfb, xauth, xfonts-base, r-base-core, debhelper (>> 4.1.0), cdbs
+Standards-Version: 3.9.1
+
+Package: r-cran-gplots
+Architecture: all
+Depends: r-cran-gtools, r-cran-gdata, r-base-core, r-cran-catools
+Description: GNU R package "Various R programming tools for plotting
+ data"
+ .
+ Various R programming tools for plotting data
+ .
+ Author: Gregory R. Warnes. Includes R source code and/or documentation
+ contributed by (in alphabetical order): Ben Bolker, Lodewijk
+ Bonebakker, Robert Gentleman, Wolfgang Huber Andy Liaw, Thomas Lumley,
+ Martin Maechler, Arni Magnusson, Steffen Moeller, Marc Schwartz, Bill
+ Venables
+ .
+ Maintainer: Gregory R. Warnes <greg@warnes.net>
